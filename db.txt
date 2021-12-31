@@ -582,9 +582,12 @@ country IL: DFS-ETSI
 
 country IN: DFS-JP
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (20), AUTO-BW
-	(5250 - 5330 @ 80), (20), DFS, AUTO-BW
-	(5735 - 5835 @ 80), (20)
+	(5150 - 5250 @ 80), (20), AUTO-BW
+	(5250 - 5350 @ 80), (20), DFS, AUTO-BW
+	(5470 - 5725 @ 160), (20)
+	# ref: https://dot.gov.in/sites/default/files/NFAP%202018.pdf 
+	# check page 203 - National Frequency Allocation Plan 2018 , Government of India 
+	(5725 - 5875 @ 80), (20)
 
 country IR: DFS-JP
 	(2402 - 2482 @ 40), (20)
